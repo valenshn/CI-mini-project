@@ -72,7 +72,7 @@ class Script {
 
 		Mobile.setText(findTestObject('Object Repository/quantityItem'), "3" , 0)
 
-		Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+		Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 
 		Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 
@@ -99,7 +99,7 @@ class Script {
 
 		Mobile.setText(findTestObject('Object Repository/quantityItem'), "3" , 0)
 
-		Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+		Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 
 		Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 	}
@@ -166,7 +166,7 @@ class Script {
 
 		Mobile.setText(findTestObject('Object Repository/quantityItem'), "-1" , 0)
 
-		Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+		Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 
 		Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 	}

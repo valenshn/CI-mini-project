@@ -27,7 +27,7 @@ Mobile.setText(findTestObject('Object Repository/FieldName'), "apel", 0)
 
 Mobile.setText(findTestObject('Object Repository/FieldQuantity'), '1', 0)
 
-Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 

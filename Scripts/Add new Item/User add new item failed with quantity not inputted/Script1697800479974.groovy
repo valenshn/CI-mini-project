@@ -32,7 +32,7 @@ Mobile.clearText(findTestObject('Object Repository/quantityItem'), 0)
 
 
 
-//Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+//Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 //
 //Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 //

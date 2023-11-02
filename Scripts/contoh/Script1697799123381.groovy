@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Object Repository/contoh/android.widget.EditText - 1,
 
 Mobile.setText(findTestObject('Object Repository/FieldQuantity'), '2', 0)
 
-Mobile.tap(findTestObject('Object Repository/Dropdown'), 0)
+Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
 
