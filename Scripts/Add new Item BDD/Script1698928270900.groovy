@@ -17,35 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\I00886.valentina\\Downloads\\mobile-app\\app-debug.apk', true)
-
-Mobile.tap(findTestObject('Add_button'), 0)
-
-Mobile.tap(findTestObject('Object Repository/FieldName'), 0)
-
-Mobile.setText(findTestObject('Object Repository/contoh/android.widget.EditText - Name (1)'), 'Apel', 0)
-
-Mobile.tap(findTestObject('Object Repository/contoh/android.widget.EditText - 1, Quantity'), 0)
-
-Mobile.setText(findTestObject('Object Repository/FieldQuantity'), '2', 0)
-
-Mobile.tap(findTestObject('Object Repository/Dropdown type'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Fruit'), 0)
-
-Mobile.tap(findTestObject('Object Repository/contoh/android.widget.Button (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Dairy'), 0)
-
-Mobile.tap(findTestObject('Object Repository/ResetButton'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.setText(findTestObject(''), 'durian', 0)
-
-Mobile.tap(findTestObject('Object Repository/contoh/AddItemButton'), 0)
-
-Mobile.tap(findTestObject('Object Repository/contoh/android.view.View (2)'), 0)
-
-Mobile.closeApplication()
-
+CucumberKW.runFeatureFile('Include/features/Add Item.feature')
